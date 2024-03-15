@@ -6,6 +6,7 @@ const ataqueRapido = (caballeroDurmiendo) => {
   }
 }
 
+
 const espiar = (caballeroDurmiendo, arqueroDurmiendo) => {
   if ((!caballeroDurmiendo && arqueroDurmiendo) || (caballeroDurmiendo && !arqueroDurmiendo)) {
     console.log("Se puede espiar");
